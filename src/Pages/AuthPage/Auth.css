@@ -1,0 +1,204 @@
+body {
+    background: #000;
+}
+.laptopSection {
+    display: block
+}
+.MainContainer {
+    display: flex;
+    height: 750px;
+}
+.firstMainContainer {
+    height: 100%;
+    flex: 1;
+    background-color: blue;
+}
+.firstMainContainer img {
+    height: 100%;
+    width: 100%;
+}
+.secondMainContainer {
+    height: 100%;
+    flex: 1;
+}
+.secondMainContainerContainer {
+    margin-left: 60px;
+}
+.firstText {
+    color: #E7E9EA;
+    font-family: TwitterChirpExtendedHeavy, Verdana, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 48px;
+    margin-top: 48px;
+    letter-spacing: -1.2px;
+    line-height: 84px;
+}
+.secondText {
+    color: #E7E9EA;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size: 31px;
+    line-height: 36px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+.externalSignUp {
+    background-color: #E7E9EA;
+    color: #3c4043;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 11px 12px;
+    border-radius: 21px;
+    cursor: pointer;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+.orSection {
+    margin-top: 15px;
+    display: flex;
+    width: 57%;
+    align-items: center;
+}
+#firstLine {
+    height: 1px;
+    background-color: rgb(47, 51, 54);
+    flex: 3;
+}
+#or {
+    color: white;
+    flex: 1;
+    text-align: center;
+}
+#secondLine {
+    height: 1px;
+    flex: 3;
+    background-color: rgb(47, 51, 54);
+}
+#createAccount {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+    display: block;
+    margin-top: 15px;
+}
+.policy {
+    color: rgb(113, 118, 123);
+    margin-top: 8px;
+    font-size: 11px;
+    line-height: 12px;
+    width: 300px;
+    font-weight: 400;
+    max-width: 380px;
+    font-family: sans-serif;
+}
+.policy a {
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+    font-family: inherit;
+    text-decoration: none;
+}
+.account {
+    color: rgb(231, 233, 234);
+    font-size: 17px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto;
+    white-space: nowrap;
+    margin-top: 80px;
+}
+#signIn {
+    background-color: rgba(0, 0, 0, 0);
+    color:rgb(29, 155, 240);
+    border: 1px solid rgb(83, 100, 113);
+    margin-top: 20px;
+    display: block;
+    margin-bottom: 0;
+}
+.imageContainer img {
+    padding-left: 45px;
+    padding-top: 20px;
+    height: 60px;
+    width: 60px;
+}
+#googleImage {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    padding-right: 10px;
+}
+#facebookImage {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    padding-right: 10px;
+}
+.mobileSection {
+    display: none;
+}
+@media only screen and (max-width: 1030px) {
+    .firstMainContainer {
+        display: none;
+    }
+    .MainContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 750px;
+    }
+    .firstText {
+        font-size: 70px;
+        font-weight: 600;
+    }
+    .externalSignUp {
+        width: 600px;
+        margin-bottom: 40px;
+    }
+    .orSection {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 800px) { 
+    .MainContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 750px;
+    }
+    .firstMainContainer {
+        display: none;
+    }
+    .firstText {
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .externalSignUp {
+        width: 500px;
+    }
+    .orSection {
+        width: 100%;
+    }
+}
+@media only screen and (max-height: 1500px) { 
+    .secondMainContainer {
+        padding-top: 20%;
+    }
+}
+@media only screen and (max-height: 1000px) {
+    .secondMainContainer {
+        padding-top: 0
+    }
+}
+@media only screen and (max-width: 500px) { 
+    .laptopSection {
+        display: none
+    }
+    .mobileSection {
+        display: block
+    }
+}

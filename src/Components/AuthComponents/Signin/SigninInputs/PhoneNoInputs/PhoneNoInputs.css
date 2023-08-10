@@ -1,0 +1,31 @@
+#label {
+    display: block;
+    font-size: 10px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    color:white;
+}
+#next {
+    background-color: rgb(29, 155, 240);
+    color: white;
+}
+#inputPhone {
+    width: 280px;
+    padding: 0 10px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 25px;
+}
+.externalSignin {
+    background-color: #E7E9EA;
+    color: #3c4043;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 11px 0;
+    border-radius: 21px;
+    cursor: pointer;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+}
