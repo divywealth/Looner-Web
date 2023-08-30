@@ -1,0 +1,87 @@
+.each-body-post {
+    width: 100%;
+    border-top: 1px solid #343333;
+    display: flex;
+    padding: 10px 0 10px 0;
+}
+.profile-pic-section {
+    padding: 15px;
+}
+.profile-pic-section img {
+    border-radius: 100%;
+}
+.main-post-section {
+    flex: 2.2;
+}
+.user-identity-section {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-name {
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.post-username {
+    font-family: sans-serif;
+    color: rgb(113, 118, 123);
+    padding-left: 5px;
+    white-space: nowrap;
+}
+.post-dot {
+    font-family: sans-serif;
+    color: rgb(113, 118, 123);
+    padding-left: 5px;
+    font-size: 15px;
+}
+.post-text-section {
+    color: rgb(231, 233, 234);
+    font-weight: 400;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+.post-image-section {
+    border-radius: 15px;
+}
+.reaction-section {
+    margin-top: 10px;
+    background-color: black;
+    display: flex;
+}
+.comment {
+    margin-right: 60px;
+    cursor: pointer;
+}
+.comment:hover {
+    color: greenyellow;
+}
+.like {
+    cursor: pointer;
+}
+.reactions-numbers-comment {
+    margin-left: 10px;
+    color: rgb(113, 118, 123);
+}
+.comment:hover .reactions-numbers-comment{ 
+    color: rgb(76, 76, 237);
+}
+.reactions-numbers-like {
+    margin-left: 10px;
+    color: rgb(113, 118, 123);
+}
+.like:hover .reactions-numbers-like{
+    color: rgb(244, 49, 49);
+}
+@media only screen and (max-width: 500px) {
+    .post-image-section {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .post-username {
+        padding-left: 0;
+    }
+}
+

@@ -1,0 +1,19 @@
+.footer-container {
+    padding: 20px 0 20px 0;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+}
+.footer-container ul {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-container ul li {
+    color: white;
+    list-style: none;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    cursor: pointer
+}

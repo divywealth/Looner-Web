@@ -1,0 +1,72 @@
+#mainWHpage {
+    display: flex;
+    padding: 20px;
+    border-bottom: 1px solid #4c4b4b;
+}
+#imgSection {
+    flex: 0.2;
+}
+#imgSection img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+#postSection {
+    flex: 2;
+}
+#postSection textarea {
+    width: 500px;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #4c4b4b;
+    padding: 20px 0 50px 0;
+    color: white;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+#postSection textarea:focus {
+    outline: none;
+}
+#postSection textarea::placeholder {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#icon {
+    cursor: pointer;
+}
+.image-upload {
+    flex: 1
+}
+#file-input {
+    display: none;
+}
+.file-post-section {
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+.post-image {
+    width: 400px;
+    height: 400px;
+}
+.post {
+    background-color: #209BF0;
+    color: white;
+    width: 200px;
+    padding: 10px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    flex: 0.2;
+    justify-content: center;
+}
+@media only screen and (max-width: 500px) { 
+    #mainWHpage {
+        display: none;
+    }
+}

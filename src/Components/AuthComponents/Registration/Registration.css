@@ -80,6 +80,12 @@
         background-color: rgb(33, 25, 25);
         padding: 10px 10%;
     }
+    #regModal {
+        width: 700px;
+        padding: 7px 10px;
+        border-radius: 10px;
+        background-color: black;
+    }
     .SignupNext {
         margin-bottom: 60px;
     }

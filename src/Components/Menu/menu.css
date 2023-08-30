@@ -1,0 +1,127 @@
+#leftSide {
+    flex: 0.4;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-right: 1px solid #625d5d;
+    padding-right: 20px;
+    padding-left: 40px;
+}
+#looner-img {
+    margin-left: -15px;
+    width: 65px;
+    height: 60px;
+}
+#menuList {
+
+}
+.ipad-section {
+    display: none
+}
+#menuList ul {
+
+}
+.icon-design {
+    color: white;
+    padding: 20px 0;
+    list-style: none;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer
+}
+#menuList ul li span {
+    padding-left: 10px;
+}
+#post {
+    background-color: #209BF0;
+    color: white;
+    margin: 0 0 50px -20px;
+    width: 200px;
+    padding: 15px 12px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+}
+.ipad-profile-image {
+    display: none;
+}
+#lowerProfile {
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: -20px;
+    border-radius: 50px;
+}
+#lowerProfile:hover {
+    background-color:#282525;
+}
+#lowerProfile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+#writing {
+    flex: 2;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+#icon {
+    flex: 1;
+    color: white;
+}
+#name {
+    color: #fff;
+}
+#username {
+    color: #b6b1b1;
+}
+@media only screen and (max-width: 1030px) { 
+    #img {
+        width: 65px;
+        height: 60px;
+    }
+    #menuList {
+        display: none
+    }
+    .ipad-section {
+        display: block
+    }
+    .ipad-icon-design {
+        color: white;
+        padding: 40px 0;
+        list-style: none;
+        font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        cursor: pointer
+    }
+    .ipad-profile-image {
+        display: block;
+        height: 40px;
+        width: 40px;
+        border-radius: 100%;
+        margin-bottom: 20px;
+    }
+    #leftSide {
+        padding-right: 0;
+    }
+    #lowerProfile {
+        display: none
+    }
+}
+@media only screen and (max-width: 500px) { 
+    #leftSide {
+        display: none;
+    }
+}

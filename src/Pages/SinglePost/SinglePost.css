@@ -1,0 +1,56 @@
+.singlepost-rightside {
+    height: 750px;
+    flex: 2;
+    margin-left: 265px;
+}
+.singlepost-maincontainer {
+    display: flex;
+}
+.singlepost-toppost-design {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    flex-basis: 72%;
+}
+.singlepost-toppost-icon {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    flex-basis: 4%;
+    margin-right: 20px;
+    cursor: pointer;
+    border-radius: 100%;
+    transition: 0.3s;
+}
+.singlepost-toppost-icon:hover {
+    background-color: rgb(29, 28, 28);
+}
+.singlepost-toppost-section {
+    padding: 12px 15px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.singlepost-downpost-section {
+    height: 100%;
+}
+.user-section {
+    display: flex;
+}
+.user-section-username {
+
+}
+.user-section-icon {
+    color: white;
+}
+.name {
+ color: white;
+}
+.user-name {
+    color: white
+}
+.post-text {
+    color: white
+}
