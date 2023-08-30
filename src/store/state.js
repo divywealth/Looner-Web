@@ -1,5 +1,6 @@
 import Team from "./../assets/image/Team.jpeg";
 import Henry from "./../assets/image/Henry.jpeg";
+import profile from  "./../assets/image/profile-pic.jpeg"
 
 const newTeam = Team;
 const newHenry = Henry;
@@ -13,7 +14,7 @@ const Appstate = {
         firstname: "Divine",
         lastname: "Christian",
         username: "Divyblaq",
-        profilepic: "",
+        profilepic: profile,
       },
     },
     {
@@ -23,7 +24,7 @@ const Appstate = {
         firstname: "Dani-x",
         lastname: "",
         username: "incredibleDanix",
-        profilepic: "",
+        profilepic: profile,
       },
     },
     {
@@ -33,7 +34,7 @@ const Appstate = {
         firstname: "August",
         lastname: "Rhymez",
         username: "August24",
-        profilepic: "",
+        profilepic: profile,
       },
     },
     {
@@ -43,7 +44,7 @@ const Appstate = {
         firstname: "Somto",
         lastname: "Kolapo",
         username: "Somto23",
-        profilepic: "",
+        profilepic: profile,
       },
     },
   ],
@@ -56,7 +57,7 @@ const Appstate = {
         firstname: "Divine",
         lastname: "Christian",
         username: "Divyblaq",
-        profilepic: "",
+        profilepic: profile,
       },
     },
     {
@@ -66,7 +67,7 @@ const Appstate = {
         firstname: "Dani-x",
         lastname: "",
         username: "incredibleDanix",
-        profilepic: "",
+        profilepic: profile,
       },
     },
     {
@@ -76,7 +77,7 @@ const Appstate = {
         firstname: "August",
         lastname: "Rhymez",
         username: "August24",
-        profilepic: "",
+        profilepic: profile,
       },
     },
     {
@@ -86,7 +87,7 @@ const Appstate = {
         firstname: "Somto",
         lastname: "Kolapo",
         username: "Somto23",
-        profilepic: "",
+        profilepic: profile,
       },
     },
   ],
