@@ -75,7 +75,8 @@ const Home = () => {
             </section>
           )}
         </main>
-
+      
+       {/* Footer for Android width Note this dosen't display on normal laptop size */}
         <footer className="android-footer">
           <Androidfooter />
         </footer>

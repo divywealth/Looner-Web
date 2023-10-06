@@ -62,6 +62,7 @@
 }
 .reactions-numbers-comment {
     margin-left: 10px;
+    text-decoration: none;
     color: rgb(113, 118, 123);
 }
 .comment:hover .reactions-numbers-comment{ 

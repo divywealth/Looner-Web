@@ -3,14 +3,10 @@ import "./Auth.css";
 import Registration from "../../Components/AuthComponents/Registration/Registration";
 import Signin from "../../Components/AuthComponents/Signin/Signin";
 import Looner_Logo_Import from "../../assets/image/L.jpeg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faXmark } from "@fortawesome/free-solid-svg-icons";
-import Looner_Image_Import from "../../assets/image/L-image-2.jpeg";
+import Looner_Image_Import from "../../assets/image/L.jpeg";
 import Google_Image_Import from "../../assets/image/Google.jpeg";
 import Facebook_Image_Import from "../../assets/image/Facebook-Icon-PNG-6.jpeg";
 import Forgotpassword from "../../Components/AuthComponents/Forgotpassword/Forgotpassword";
-import PhoneNoInput from "../../Components/AuthComponents/Signin/SigninInputs/PhoneNoInputs/PhoneNoInputs";
-import PasswordInputs from "../../Components/AuthComponents/Signin/SigninInputs/PasswordInputs/PasswordInputs";
 
 const Auth = () => {
   const Looner_Logo = Looner_Logo_Import;

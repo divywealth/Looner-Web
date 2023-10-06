@@ -1,0 +1,101 @@
+.comment-backdrop {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(106, 103, 103, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comment-modal {
+    background-color: black;
+    width: 470px;
+    margin-top: 80px;
+    padding: 6px 20px 20px 20px;
+    border-radius: 10px;
+    color: white;
+}
+.comment-cancel-icon {
+    cursor: pointer;
+}
+.comment-image-section {
+    display: flex;
+    margin-top: 32px;
+}
+.comment-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+.comment-identity {
+    margin-bottom: 7px;
+}
+.comment-name {
+    font-family: sans-serif;
+}
+.comment-username {
+    color: rgb(80, 76, 76);
+    font-family: sans-serif;
+}
+.comment-post {
+
+}
+.reply-textarea-section {
+    display: flex;
+    margin-top: 20px;
+}
+.comment-image-textarea {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.textarea {
+
+}
+.textarea textarea{
+    width: 400px;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #4c4b4b;
+    padding: 20px 0 50px 0;
+    color: white;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.textarea textarea:focus {
+    outline: none;
+}
+.textarea textarea::placeholder {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.comment-post-section {
+    display: flex;
+    justify-content: end;
+}
+.comment-post-button {
+    background-color: #209BF0;
+    color: white;
+    width: 200px;
+    padding: 10px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    flex: 0.2;
+    justify-content: center;
+}
+@media only screen and (max-width: 1030px) { 
+
+}
+@media only screen and (max-width: 500px) { 
+
+}

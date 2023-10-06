@@ -106,3 +106,103 @@
 .singlepost-reaction-icon-like:hover {
     color: rgb(244, 49, 49);
 }
+.singlepost-user-image {
+    width: 40px; 
+    height: 40px;
+    border-radius: 100%;
+}
+.singlepost-user-image-container {
+    flex-basis: 6%;
+}
+.singlepost-textarea {
+    width: 500px;
+    background-color: black;
+    border: none;
+    padding: 30px 0 0 0;
+    color: white;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 18px;
+    flex-basis: 84%;
+}
+.singlepost-textarea:focus {
+    outline: none;
+}
+.singlepost-reply-comment {
+    background-color: #209BF0;
+    color: white;
+    width: 200px;
+    height: 20px;
+    padding: 10px 8px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    display: flex;
+    flex: 0.2;
+    justify-content: center;
+    flex-basis: 10%;
+}
+.singlepost-reaction-comment {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(71, 67, 67);
+    padding: 10px;
+    font-family: sans-serif;
+    padding-left: 30px;
+}
+.singlepost-comment-section {
+  display: flex;
+  padding: 20px;
+}
+.singlepost-comment-left {
+  flex-basis: 7%;
+}
+.singlepost-comment-left img {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+}
+.singlepost-commet-right {
+  flex-basis: 93%;
+  color: white;
+}
+.singlepost-comment-user-section {
+  display: flex;
+  justify-content: space-between;
+}
+.user-identity {
+  
+}
+.user-menu {
+
+}
+.singlepost-comment {
+
+}
+.singlepost-comment-reaction-section {
+
+}
+.singlepost-android-footer {
+  display: none
+}
+
+@media only screen and (max-width: 1030px) { 
+
+}
+
+@media only screen and (max-width: 500px) {
+  .singlepost-menu {
+    display: none
+  }
+  .singlepost-rightside {
+    margin-left: 0;
+    padding: 30px;
+  }
+  .singlepost-android-footer {
+    display: block
+  }
+} 
+
